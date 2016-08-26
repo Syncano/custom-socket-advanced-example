@@ -3,7 +3,7 @@ description: An advanced example of Custom Socket - mailgun integration.
 author:
   name: Info at Syncano
   email: info@syncano.com
-ednpoints:
+endpoints:
   send_mail:
     POST:
       script: send_mail
