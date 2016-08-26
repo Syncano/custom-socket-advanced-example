@@ -10,7 +10,7 @@ endpoints:
 
   get_stats:
     GET:
-      scrpit: get_stats
+      script: get_stats
 
 dependencies:
   scripts:
