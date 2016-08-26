@@ -1,0 +1,23 @@
+name: mailgun_integration
+description: An advanced example of Custom Socket - mailgun integration.
+author:
+  name: Info at Syncano
+  email: info@syncano.com
+ednpoints:
+  send_mail:
+    POST:
+      script: send_mail
+
+  get_stats:
+    GET:
+      scrpit: get_stats
+
+dependencies:
+  scripts:
+    send_mail:
+      runtime_name: python_library_v5.0
+      file: scripts/send_mail.py
+
+    get_stats:
+      runtime_name: python_library_v5.0
+      file: scripts/get_stats.py
